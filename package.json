@@ -2,6 +2,9 @@
   "name": "@beyowi/jszip",
   "version": "3.10.1",
   "author": "Stuart Knightley <stuart@stuartk.com>",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Create, read and edit .zip files with JavaScript http://stuartk.com/jszip",
   "scripts": {
     "test": "npm run test-node && npm run test-browser && tsc",
